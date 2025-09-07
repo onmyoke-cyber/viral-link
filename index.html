@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Direct Video — Link Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Watch videos directly here. No app download needed. Zero hassle ❤️" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Direct Video — Link Page" />
+    <meta property="og:description" content="Watch videos directly here. No app download needed. Zero hassle ❤️" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://example.com/preview.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+    <style>
+      
+.thumb {
+  filter: blur(3px); /* adjust the px value to control blur */
+}
+
+      :root {
+        --bg: #2cd61e;
+        --card: #fff1f1;
+        --text: #000;
+        --link: #1431f4;
+        --radius: 14px;
+        --maxw: 720px;
+      }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        display: grid;
+        place-items: start center;
+      }
+      .wrap {
+        width: 100%;
+        max-width: var(--maxw);
+        padding: 28px 16px 56px;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+      .avatar {
+        width: 104px; height: 104px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,.15);
+      }
+      h1 { font-size: 28px; margin: 0 0 6px; }
+      .bio { opacity: .9; margin: 0; }
+      .links { display: grid; gap: 14px; margin-top: 20px; }
+      .card {
+        display: grid;
+        grid-template-columns: 64px 1fr auto;
+        align-items: center;
+        gap: 14px;
+        padding: 12px;
+        background: var(--card);
+        border-radius: var(--radius);
+        text-decoration: none;
+        color: var(--link);
+        transition: transform .08s ease, box-shadow .12s ease;
+        box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      }
+      .card:hover, .card:focus-visible {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 18px rgba(0,0,0,.12);
+      }
+      .thumb {
+        width: 64px; height: 64px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      .title { font-weight: 600; line-height: 1.25; }
+      .cta {
+        font-size: 14px;
+        padding: 6px 10px;
+        border-radius: 8px;
+        background: #fff;
+        color: #111;
+        border: 1px solid rgba(0,0,0,.1);
+      }
+      footer { margin-top: 28px; text-align: center; opacity: .8; font-size: 14px; }
+      @media (prefers-color-scheme: dark) {
+        :root { --card: #111; --text: #f2f2f2; --link: #cdd3ff; }
+        body { background: #0e1217; }
+        .card { border: 1px solid rgba(255,255,255,.08); }
+        .cta { background: #0e1217; color: #eaeaea; border-color: rgba(255,255,255,.14); }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <header>
+        <img class="avatar" src="https://cdn.shopify.com/b/shopify-linkpop-prod/wge0eik5afaizim8lc63y6po6q4m.jpg?height=192&width=192" alt="Profile picture" />
+        <h1>Direct Video</h1>
+        <p class="bio">কোন ধরনের অ্যাপস ডাউনলোড করে ভিডিও দেখতে হবে না। সরাসরি এখানে ভিডিও দেখতে পারবেন। কোন রকমের ঝামেলা ছাড়াই ❤️❤️</p>
+      </header>
+
+      <section class="links" aria-label="Links">
+        <!-- 12+ link cards (placeholders) -->
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/k6506nmft36rahi56vohmjj6yqtz.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">ফেসবুকের সেই ভাইরাল ভিডিও দেখতে এখানে ক্লিক করুন ❤️</div>
+          <span class="cta">Open</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/6ro1p2e0bu9yzluc7hyfqccyobrq.png?width=192&amp;height=192" alt="" />
+          <div class="title">সব প্রিমিয়াম সেক্স ভিডিও দেখতে এখানে ক্লিক করুন ❤️</div>
+          <span class="cta">Open</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/yytli0xxp16aufgs5tuw8r8tq0w5.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">❤️ফেসবুকের সকল ভাইরাল ভিডিও টি দেখতে এখানে ক্লিক করুন ❤️</div>
+          <span class="cta">Open</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/co84hnonnevyp1yet3prqxlsx60c.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">❤️স্কুল ও কলেজের ছাত্র ছাত্রীর ভাইরাল সেক্স ভিডিও দেখতে এখানে ক্লিক করুন 
+</div>
+          <span class="cta">Join</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/7xme73z4ow6mpl6lx7irpau4xrwt.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">৮ থেকে ১০ বছর বয়সী মেয়েদের সেক্স ভিডিও দেখতে এখানে ক্লিক করুন ❤️ ( সেই না দেখলে মিস) 
+</div>
+          <span class="cta">Join</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/b2l04m2f41nm19sqsent50lls0k8.png?width=192&amp;height=192" alt="" />
+          <div class="title">Baby sex( ছোট বাচ্চাদের মাথা নষ্ট করা ভিডিও দেখুন এখানে) ❤️</div>
+          <span class="cta">Join</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/afl21lyk60y1z9uzcd6rrkhhc33k.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">১৮ বছরের নিছে প্রবেন নিসেদ ( শুরু বড়দের জন্য মজার মজার vip ভিডিও দেখুন এখানে)</div>
+          <span class="cta">Open</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/w345i1e50nkfbfu7rk48ml1vqg1m.png?width=192&amp;height=192" alt="" />
+          <div class="title">জঙ্গলে নিয়ে সেক্স করার ভিডিও দেখুন এখানে ক্লিক করে। সেই ❤️</div>
+          <span class="cta">View</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/v7zvryp0ynmf8lidlcwqtixbqupt.png?width=192&amp;height=192" alt="" />
+          <div class="title">New 18+ Messenger Group এড হতে ক্লিক করুন ❤️</div>
+          <span class="cta">Watch</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/q2rea3gc3ycfkivhjtkunbleywyn.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">New WhatsApp 18+ Group Add now❤️</div>
+          <span class="cta">Open</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/mr0bxh1ptvtkj7eavohqqzthigr4.png?width=192&amp;height=192" alt="" />
+          <div class="title">New 18+ Telegram Geoup Add Now❤️</div>
+          <span class="cta">View</span>
+        </a>
+
+        <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/nureb9938fvhir4cgtpr72ruza1b.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">সকল নতুন আপডেট ভাইরাল ভিডিও পেতে এখানে ক্লিক করুন❤️</div>
+          <span class="cta">Open</span>
+        </a>
+
+                <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/dytzey2sy5f1kvzgb4yjgtc18gci.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">ছবির সেই ফাস হওয়া ভিডিও দেখুন এখানে ক্লিক করে ❤️</div>
+          <span class="cta">Open</span>
+        </a>
+
+                <a class="card" href="#" target="_blank">
+          <img class="thumb" src="https://cdn.shopify.com/b/shopify-linkpop-prod/wq8jobalpmi1o4309bzghlogyf6u.jpg?width=192&amp;height=192" alt="" />
+          <div class="title">অথোই আপুর ১.১৩ মিনিট ও টিকটকার রিধির নতুন পরাতন সবকল ভাইরাল ভিডিও লিংক এখানে❤️
+</div>
+          <span class="cta">Open</span>
+        </a>
+
+
+        
+        
+
+      </section>
+
+      <footer>
+        © <span id="year"></span> Direct Video
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
